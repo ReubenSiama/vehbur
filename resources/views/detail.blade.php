@@ -8,8 +8,8 @@
 @endsection
 @section('contents')
     <div class="flex flex-col md:flex-row">
-        <img class="h-64" src="https://images.unsplash.com/photo-1562917127-52bfc7d186ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="">
         <div class="mx-4">
+            <img class="float-left pr-4 h-80" src="https://images.unsplash.com/photo-1562917127-52bfc7d186ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="">
             It was just an experiment. No big deal. A one percent difference is all that separates us from the Chimps. So upping their intelligence by one percent…didn't seem like it would be anything significant. We guessed, that at best, they might understand speech as well as say, a five year old child. At worst, they might learn a few names for fruits, or trees. Those were out best guesses…and we were wrong.
             <br>
             *****

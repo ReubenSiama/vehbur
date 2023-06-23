@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('payments', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('story_id')->constrained();
+            $table->string('name')->nullable();
+            $table->string('comment')->nullable();
+            $table->integer('amount');
             $table->timestamps();
         });
     }

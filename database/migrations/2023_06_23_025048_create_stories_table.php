@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('stories', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained();
+            $table->string('title');
+            $table->text('content');
+            $table->string('media')->nullable();
+            $table->date('target_date');
+            $table->integer('target_amount')->nullable();
+            $table->string('status');
             $table->timestamps();
         });
     }
