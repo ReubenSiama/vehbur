@@ -1,0 +1,13 @@
+@extends('layouts.app')
+@section('navbar')
+    @include('snippets.navbar')
+@endsection
+@section('header')
+    @yield('header')
+@endsection
+@section('main')
+    @yield('contents')
+@endsection
+@section('footer')
+    @include('snippets.footer')
+@endsection
