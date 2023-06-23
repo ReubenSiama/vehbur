@@ -1,5 +1,3 @@
-<p align="center">Vehbur</p>
-
 ## About Vehbur
 
 Vehbur is a project inspired by [gofundme.com](https://www.gofundme.com/) which helped a lot of people in different countries. It is not a replica of it, but we got some inspirations from it.
