@@ -16,6 +16,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained();
             $table->string('title');
             $table->text('content');
+            $table->string('thumbnail')->nullable();
             $table->string('media')->nullable();
             $table->date('target_date');
             $table->integer('target_amount')->nullable();
