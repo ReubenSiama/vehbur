@@ -3,10 +3,6 @@
 Vehbur is a project inspired by [gofundme.com](https://www.gofundme.com/) which helped a lot of people in different countries. It is not a replica of it, but we got some inspirations from it.
 
 ## To Run this project
-- clone this repository
-```
-git clone git@github.com:ReubenSiama/vehbur.git
-```
 - install requirements
 ```
 composer install && npm install
@@ -28,5 +24,11 @@ DB_DATABASE=db_name
 DB_USERNAME=db_username
 DB_PASSWORD=db_password (leave blank for no password)
 ```
-- run migration and seed: `php artisan migrate --seed`
-- serve the project `php artisan serve`
+- run migration and seed:
+```
+php artisan migrate --seed
+```
+- serve the project
+```
+php artisan serve
+```
