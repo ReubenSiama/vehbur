@@ -1,8 +1,15 @@
 <nav class="w-full bg-gray-900 text-white font-bold px-4 py-4">
-    <div class="hidden sm:flex flex-row justify-center">
-        <div class="px-4">Home</div>
-        <div class="px-4">About</div>
-        <div class="px-4">Contact</div>
+    <div class="hidden sm:flex flex-row justify-between">
+        <div class=""></div>
+        <div class="flex flex-row justify-center">
+            <a href="{{ route('home') }}" class="px-4">Home</a>
+            <a href="{{ route('about.us') }}" class="px-4">About</a>
+            <a href="{{ route('contact.us') }}" class="px-4">Contact</a>
+        </div>
+        <div class="">
+            <a href="" class="px-4">Login</a>
+            <a href="" class="px-4">Register</a>
+        </div>
     </div>
     <div class="flex sm:hidden">
         <button></button>

@@ -10,4 +10,14 @@ class HomePageController extends Controller
     {
         return view('welcome');
     }
+
+    public function aboutUs(): View
+    {
+        return view('about');
+    }
+
+    public function contactUs(): View
+    {
+        return view('contact');
+    }
 }

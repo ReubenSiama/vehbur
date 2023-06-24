@@ -16,7 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::controller(HomePageController::class)->group(function () {
-    Route::get('/', 'index');
+    Route::get('/', 'index')->name('home');
+    Route::get('about-us', 'aboutUs')->name('about.us');
+    Route::get('contact-us', 'contactUs')->name('contact.us');
 });
 
 Route::controller(StoryController::class)->group(function () {
